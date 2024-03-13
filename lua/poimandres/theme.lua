@@ -269,6 +269,8 @@ function M.get(config)
     typescriptTypeCast = { fg = p.blueGray2 },
     typescriptParenExp = { fg = p.blueGray2 },
     typescriptObjectType = { fg = p.blueGray1 },
+    ['@lsp.type.variable.typescript'] = { fg = p.white },
+    ['@lsp.type.property.typescript'] = { fg = p.blueGray2 },
 
     -- lua
     luaTSConstructor = { fg = p.blueGray1 },
