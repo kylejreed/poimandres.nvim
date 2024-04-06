@@ -192,6 +192,8 @@ function M.get(config)
 
     -- Treesitter
     ['@variable'] = { fg = p.white },
+    ['@variable.typescript'] = { link = '@variable' },
+    ['@variable.tsx'] = { link = '@variable' },
     -- TSAttribute = {},
     -- TSKeywordReturn = { fg = p.teal2 },
     ['@boolean'] = { link = 'Boolean' },
