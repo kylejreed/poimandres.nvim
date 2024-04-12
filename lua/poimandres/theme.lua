@@ -191,9 +191,7 @@ function M.get(config)
     DiagnosticVirtualTextWarn = { fg = groups.warn },
 
     -- Treesitter
-    ['@variable'] = { fg = p.white },
-    ['@variable.typescript'] = { link = '@variable' },
-    ['@variable.tsx'] = { link = '@variable' },
+    ['@variable'] = { link = 'Identifier' },
     -- TSAttribute = {},
     -- TSKeywordReturn = { fg = p.teal2 },
     ['@boolean'] = { link = 'Boolean' },
